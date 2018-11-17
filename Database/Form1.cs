@@ -29,9 +29,13 @@ namespace Database
             MySqlDataReader datareader;
 
 
+
+
             connetionString = @"server=localhost;database=studentdetailsdb;user=root;password=root";
             cnn = new MySqlConnection(connetionString);
             cnn.Open();
+
+
 
             //MySqlCommand = "update student set FMarks = 50 where FStudentName='Nks'";          
             //MySqlCommand = "insert into student(FStudentID, FStudentName, FSubject, FMarks)value('101','Nks2','Chem2','100')";
